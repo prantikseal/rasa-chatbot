@@ -1,0 +1,5 @@
+.rasa
+venv
+.vscode
+models
+audio_sample.wav

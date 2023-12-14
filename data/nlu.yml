@@ -1,0 +1,69 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hi there
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+
+- intent: operational_hours
+  examples: |
+    - Are you open on Sundays?
+    - What are your operational hours?
+    - What are your hours of operation?
+
+- intent: flower_recommendations
+  examples: |
+    - Can you recommend some flowers?
+    - What flowers do you have?
+    - What flowers do you have in stock?
+
+- intent: carnation_recommendations
+  examples: |
+    - Show me carnation arrangements.
+    - Carnations for a funeral?
+    - Carnations for a funeral.
+
+- intent: order_instructions
+  examples: |
+    - How do I place an order?
+    - What are the steps to order?
+    - How do I order?
+    - How do I place an order for carnations?
+
+- intent: affirm
+  examples: |
+    - Yes
+    - Sure
+    - Absolutely
+    - Of course
+    - Yes, please
+
+
+

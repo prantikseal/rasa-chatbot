@@ -1,0 +1,44 @@
+version: "3.1"
+
+intents:
+  - greet
+  - bot_challenge
+  - mood_great
+  - affirm
+  - operational_hours
+  - flower_recommendations
+  - carnation_recommendations
+  - order_instructions
+
+responses:
+  utter_greet:
+    - text: "Hi, Very Good Morning. I am Victor. I have the pleasure to assist you today. How may I help?"
+
+  utter_operational_hours:
+    - text: "In Toronto, Canada, our store is open Monday-Friday from 9AM to 4PM."
+
+  utter_store_addresses:
+    - text: "We have four outlets in Toronto, Canada. Please choose from the following addresses:\n1. Address 1\n2. Address 2\n3. Address 3\n4. Address 4"
+
+  utter_flower_recommendations:
+    - text: "Sure! What occasion are the flowers for?"
+
+  utter_carnation_recommendations:
+    - text: "I'm sorry to hear about the funeral. We have a selection of beautiful carnation arrangements. You can view them [here](link)."
+
+  utter_order_instructions:
+    - text: "You can click on the link to view the carnation arrangements, add your selected item to the cart, proceed to checkout, and make the payment. Our delivery team will deliver the order within 24 hours. Alternatively, you can collect the order from the store by showing the order number."
+
+  utter_order_confirmation:
+    - text: "Thank you for your order! An order confirmation will be sent to your email. If you need further assistance, feel free to reach out. We're available 24x7."
+  
+  utter_iamabot:
+    - text: "Hi I am Victor, your virtual assistant. I am here to help you with your queries. How may I help you today?"
+  
+  utter_happy:
+    - text: "Great carry on!"
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

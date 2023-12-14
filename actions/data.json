@@ -1,0 +1,14 @@
+{
+    "operational_hours": {
+        "store_location1": "9:00 AM - 5:00 PM",
+        "store_location2": "10:00 AM - 6:00 PM",
+        "store_location3": "11:00 AM - 7:00 PM"
+    },
+    "flower_recommendations": {
+        "birthday": ["rose", "tulip", "lily"],
+        "anniversary": ["lily", "orchid", "daisy"],
+        "wedding": ["rose", "orchid", "lily", "daisy"],
+        "Funeral": ["rose", "lily", "daisy"]
+    }
+  }
+  

@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: book_flowers
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: flower_recommendations
+  - action: utter_flower_recommendations
+
+- story: operational_hours
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: operational_hours
+  - action: utter_operational_hours
+
+- story: carnation_recommendations
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: carnation_recommendations
+  - action: utter_carnation_recommendations
+
+- story: order_instructions
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: order_instructions
+  - action: utter_order_instructions
+
+- story: sunday_inquiry
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: operational_hours
+  - action: utter_operational_hours
+  - intent: operational_hours
+  - action: utter_store_addresses
+  - intent: operational_hours
+  - action: utter_store_addresses
+  - intent: operational_hours
+  - action: utter_store_addresses
+
+- story: funeral_attendance
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: operational_hours
+  - action: utter_operational_hours
+  - intent: operational_hours
+  - action: utter_store_addresses
+  - intent: carnation_recommendations
+  - action: utter_carnation_recommendations
+  - intent: order_instructions
+  - action: utter_order_instructions
+  - intent: affirm
+  - action: utter_order_confirmation
+

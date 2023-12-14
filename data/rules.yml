@@ -1,0 +1,20 @@
+version: "3.1"
+
+rules:
+
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- rule: Flower recommendations
+  steps:
+  - intent: flower_recommendations
+  - action: utter_flower_recommendations
+
+- rule: Order instructions
+  steps:
+  - intent: order_instructions
+  - action: utter_order_instructions
